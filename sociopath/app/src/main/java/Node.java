@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
     public class Node {
-        int vertex;
+        public final int vertex;
         ArrayList<Integer> next; // the number of edges is variable so use a list which can grow easily
         int incomingEdges;
 
